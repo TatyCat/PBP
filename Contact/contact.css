@@ -1,0 +1,489 @@
+/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block
+}
+
+audio, canvas, progress, video {
+    display: inline-block
+}
+
+progress {
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden], template {
+    display: none
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+a:active, a:hover {
+    outline-width: 0
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -0.25em
+}
+
+sup {
+    top: -0.5em
+}
+
+figure {
+    margin: 1em 40px
+}
+
+img {
+    border-style: none
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+code, kbd, pre, samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+button, input, select, textarea {
+    font: inherit;
+    margin: 0
+}
+
+optgroup {
+    font-weight: bold
+}
+
+button, input {
+    overflow: visible
+}
+
+button, select {
+    text-transform: none
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+    -webkit-appearance: button
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox], [type=radio] {
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-input-placeholder {
+    color: inherit;
+    opacity: 0.54
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+/* End extract */
+
+
+/* **General** */
+*{
+    text-decoration: none;
+}
+h1{
+    color: #b5a642;
+}
+
+body, html {
+    font-family: 'Reem Kufi', 'Poppins', sans-serif !important;
+    background-color: rgb(236, 236, 233);
+    
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.w3-wide {
+    letter-spacing: 4px;
+}
+
+.w3-container, .w3-panel {
+    padding: 0.01em 16px;
+}
+
+.w3-container:after, .w3-container:before, .w3-panel:after, .w3-panel:before, .w3-row:after, .w3-row:before, .w3-row-padding:after, .w3-row-padding:before, .w3-cell-row:before, .w3-cell-row:after, .w3-clear:after, .w3-clear:before, .w3-bar:before, .w3-bar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block;
+}
+
+.w3-panel {
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+.w3-code, .w3-codespan {
+    font-family: Consolas, "courier new";
+    font-size: 16px
+}
+
+.w3-code {
+    width: auto;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-left: 4px solid #4CAF50;
+    word-wrap: break-word
+}
+
+.w3-codespan {
+    color: rgb(20, 220, 97);
+    background-color: #f1f1f1;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 110%
+}
+
+.w3-card, .w3-card-2 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+
+.w3-card-4, .w3-hover-shadow:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.w3-bar {
+    width: 100%;
+    overflow: hidden;
+}
+
+.w3-center .w3-bar {
+    display: inline-block;
+    width: auto;
+}
+
+.w3-bar .w3-bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+.w3-bar .w3-dropdown-hover, .w3-bar .w3-dropdown-click {
+    position: static;
+    float: left;
+}
+
+.w3-bar .w3-button {
+    white-space: normal;
+}
+
+.w3-bar-block .w3-bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}
+
+.w3-bar-block.w3-center .w3-bar-item {
+    text-align: center;
+}
+
+.w3-block {
+    display: block;
+    width: 100%;
+}
+
+.w3-left-align {
+    text-align: left!important;
+}
+
+.w3-right-align {
+    text-align: right!important;
+}
+
+.w3-justify {
+    text-align: justify!important;
+}
+
+.w3-center {
+    text-align: center!important;
+}
+
+.w3-left {
+    float: left!important;
+}
+
+.w3-right {
+    float: right!important;
+}
+
+.w3-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.w3-input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%
+}
+
+
+button, input, select, textarea {
+    font: inherit;
+    margin: 0
+}
+
+button, input {
+    overflow: visible
+}
+
+::-webkit-input-placeholder {
+    color: inherit;
+    opacity: 0.54
+}
+
+
+.w3-padding-small {
+    padding: 4px 8px!important
+}
+
+.w3-padding {
+    padding: 8px 16px!important
+}
+
+.w3-padding-large {
+    padding: 12px 24px!important
+}
+
+.w3-padding-16 {
+    padding-top: 16px!important;
+    padding-bottom: 16px!important
+}
+
+.w3-padding-24 {
+    padding-top: 24px!important;
+    padding-bottom: 24px!important
+}
+
+.w3-padding-32 {
+    padding-top: 32px!important;
+    padding-bottom: 32px!important
+}
+
+.w3-padding-48 {
+    padding-top: 48px!important;
+    padding-bottom: 48px!important
+}
+
+.w3-padding-64 {
+    padding-top: 64px!important;
+    padding-bottom: 64px!important
+}
+
+.w3-margin {
+    margin: 16px!important
+}
+
+.w3-margin-top {
+    margin-top: 16px!important
+}
+
+.w3-margin-bottom {
+    margin-bottom: 16px!important
+}
+
+.w3-margin-left {
+    margin-left: 16px!important
+}
+
+.w3-margin-right {
+    margin-right: 16px!important
+}
+
+.w3-top, .w3-bottom {
+    width: 100%;
+    z-index: 1
+}
+
+.w3-top {
+    top: 0
+}
+
+.w3-bottom {
+    bottom: 0
+}
+/* End General */
+
+/* Menu Bar */
+.navLink{
+    color: #B3A652 !important;
+    font-size: calc(.9em + .9vw);
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: .5px !important;
+}
+
+.logo{
+    color: #B3A652 !important;
+    font-family: 'Special Elite', 'Nunito' !important;
+    font-size: calc(1.3em + 1.3vw)!important;
+    padding-top: 10px !important;
+    padding-left: 0 !important;
+}
+/* End Menu Bar */
+
+/* Header  */
+header{
+    padding: 0.01em 16px;
+}
+#headerImageContainer {
+    background-color: #1B2E33;
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(80, 80, 80, 0.5), 
+          rgba(80, 80, 80, 0.5)
+        ),
+        /* bottom, image */
+        url(images/succulents-1030982_1920.jpg) no-repeat left;
+
+    background-position: center;
+    position:relative;
+ }
+    /* light brass - #dddac5 ; */
+#headerText{
+    padding: 2em 6px;
+    font-size: calc(1.4em + 1.4vw);
+    font-family: 'Reem Kufi', sans-serif;
+    line-height: 1.5;
+    letter-spacing: .1em;
+    color: white;
+    text-shadow: .8px 0px 1px rgb(146, 146, 145);
+ }
+
+#workContactForm p{
+    padding-right: 1em;
+ }
+/* Header End */
+
+/* Porfolio */
+#portfolio{
+    height: 30%;
+}
+/* Portfolio End */
+ 
+ /* Contact */
+ .contactTextbox{
+      height: 27vh;
+ }
+ /* Contact End */
+
+
+/* Footer */
+footer{
+    background-color: #f0f0ef;
+}
+/* Footer End */
