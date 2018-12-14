@@ -450,6 +450,11 @@ button, input {
     margin-top: 3.6vh;
     margin-bottom: 3vh;
 }
+
+.grit {
+  -webkit-mask-image: url("images/grit.png");
+  mask-image: url("images/grit.png");
+}
 /* End General */
 
 /* Menu Bar */
@@ -482,11 +487,11 @@ header{
     background:
         /* top, transparent black, faked with gradient */ 
         linear-gradient(
-          rgba(80, 80, 80, 0.5), 
-          rgba(80, 80, 80, 0.5)
+          rgba(148, 148, 147, 0.5), 
+          rgba(148, 148, 147, 0.5)          
         ),
         /* bottom, image */
-        url(images/succulents-1030982_1920.jpg) no-repeat left;
+        url(blogImages/house-plant-in-white-pot_4460x4460.jpg) no-repeat left;
     background-size:cover;
     background-position: center;
     position:relative;
@@ -582,3 +587,4 @@ footer div{
     text-shadow: .8px 0px 1px rgb(146, 146, 145);
 }
 /* Footer End */
+
