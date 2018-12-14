@@ -512,12 +512,13 @@ header{
 /* Porfolio */
 .outerSlideSection{
     padding-top: 30px;
-    border-bottom: #f0edd9 solid 2.5px;
+    /* border-bottom: #f0edd9 solid 2.5px; */
 }
 
 .portfolioSlideshow{
     text-align: center!important;
     background-color: rgba(50, 62, 53, 0.93);
+    background-image: url(images/asfalt-light.png);
     margin-top: 30px;
     padding-bottom: 16px;
 }
@@ -527,6 +528,7 @@ header{
     max-height: 750px;
     vertical-align: middle;
     filter: saturate(75%);
+    box-shadow: 20px 20px 50px rgba(41, 51, 44, 0.93);
 }
 
 .mySlides {

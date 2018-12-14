@@ -450,11 +450,6 @@ button, input {
     margin-top: 3.6vh;
     margin-bottom: 3vh;
 }
-
-.grit {
-  -webkit-mask-image: url("images/grit.png");
-  mask-image: url("images/grit.png");
-}
 /* End General */
 
 /* Menu Bar */
